@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sijou Fx - Cyberpunk Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">SIJOU.FX</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-title">
+                <h1 class="glitch" data-text="SIJOU FX">SIJOU FX</h1>
+            </div>
+            <p class="hero-subtitle">Digital Creator | Content Innovator | Cyberpunk Enthusiast</p>
+            <div class="typewriter-text" id="typewriterText"></div>
+            
+            <div class="cta-buttons">
+                <button class="btn btn-primary" onclick="scrollToContact()">
+                    <span class="btn-text">BOOK MY SERVICES</span>
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToSocials()">
+                    <span class="btn-text">CHECK MY SOCIALS</span>
+                </button>
+            </div>
+
+            <div class="grid-overlay"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="terminal-button red"></span>
+                    <span class="terminal-button yellow"></span>
+                    <span class="terminal-button green"></span>
+                    <span class="terminal-title">about_sijou.fx</span>
+                </div>
+                <div class="terminal-content">
+                    <p><span class="terminal-prompt">$</span> whoami</p>
+                    <p class="terminal-text">I'm <span class="cyan-text">SIJOU FX</span>, a creative force in the digital realm.</p>
+                    <br>
+                    <p><span class="terminal-prompt">$</span> cat mission.txt</p>
+                    <p class="terminal-text">My mission is to create cutting-edge content that pushes boundaries and captivates audiences. With a deep passion for cyberpunk aesthetics and digital innovation, I blend creativity with technology to produce unforgettable experiences.</p>
+                    <br>
+                    <p><span class="terminal-prompt">$</span> ls -la skills/</p>
+                    <p class="terminal-text">
+                        📊 Content Creation<br>
+                        🎨 Digital Design<br>
+                        🎬 Video Production<br>
+                        💡 Creative Direction<br>
+                        🔮 Trend Forecasting
+                    </p>
+                    <br>
+                    <p><span class="terminal-prompt">$</span> echo "Let's create something extraordinary."</p>
+                    <p class="terminal-text">Ready to collaborate? Let's build the future together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Gallery Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title glitch-text" data-text="PROJECTS">PROJECTS</h2>
+            
+            <div class="gallery-grid">
+                <!-- Project 1 -->
+                <div class="gallery-item" data-index="1">
+                    <a href="#" target="_blank" class="gallery-link">
+                        <img src="https://via.placeholder.com/350x250/1a1a2e/00f3ff?text=Project+1" alt="Project 1" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="scanlines"></div>
+                            <div class="glitch-overlay"></div>
+                            <p class="project-title">DIGITAL VORTEX</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="gallery-item" data-index="2">
+                    <a href="#" target="_blank" class="gallery-link">
+                        <img src="https://via.placeholder.com/350x250/1a1a2e/ff003c?text=Project+2" alt="Project 2" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="scanlines"></div>
+                            <div class="glitch-overlay"></div>
+                            <p class="project-title">NEON PULSE</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="gallery-item" data-index="3">
+                    <a href="#" target="_blank" class="gallery-link">
+                        <img src="https://via.placeholder.com/350x250/1a1a2e/fcee0a?text=Project+3" alt="Project 3" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="scanlines"></div>
+                            <div class="glitch-overlay"></div>
+                            <p class="project-title">CYBER WAVE</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="gallery-item" data-index="4">
+                    <a href="#" target="_blank" class="gallery-link">
+                        <img src="https://via.placeholder.com/350x250/1a1a2e/00f3ff?text=Project+4" alt="Project 4" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="scanlines"></div>
+                            <div class="glitch-overlay"></div>
+                            <p class="project-title">TECH NEXUS</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="gallery-item" data-index="5">
+                    <a href="#" target="_blank" class="gallery-link">
+                        <img src="https://via.placeholder.com/350x250/1a1a2e/ff003c?text=Project+5" alt="Project 5" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="scanlines"></div>
+                            <div class="glitch-overlay"></div>
+                            <p class="project-title">MATRIX CODE</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="gallery-item" data-index="6">
+                    <a href="#" target="_blank" class="gallery-link">
+                        <img src="https://via.placeholder.com/350x250/1a1a2e/fcee0a?text=Project+6" alt="Project 6" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="scanlines"></div>
+                            <div class="glitch-overlay"></div>
+                            <p class="project-title">DIGITAL REALM</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title glitch-text" data-text="GET IN TOUCH">GET IN TOUCH</h2>
+            
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="YOUR NAME" required>
+                        <div class="form-border-glow"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="YOUR EMAIL" required>
+                        <div class="form-border-glow"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="YOUR MESSAGE" rows="6" required></textarea>
+                        <div class="form-border-glow"></div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-submit">
+                        <span class="btn-text">SEND MESSAGE</span>
+                    </button>
+                </form>
+
+                <!-- Social Links -->
+                <div class="social-section">
+                    <h3 class="social-title">CONNECT WITH ME</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="YouTube">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" title="Instagram">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0m0 2.25c5.385 0 9.75 4.365 9.75 9.75S17.385 21.75 12 21.75 2.25 17.385 2.25 12 6.615 2.25 12 2.25zm0 1.5a6.25 6.25 0 1 0 0 12.5 6.25 6.25 0 0 0 0-12.5zm3.5 5.75a.875.875 0 1 1 0 1.75.875.875 0 0 1 0-1.75z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" title="Twitter">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 002.856-3.915 9.964 9.964 0 01-2.866.856 4.482 4.482 0 001.964-2.475c-.865.522-1.82.865-2.834 1.007a4.476 4.476 0 00-7.658 4.079 12.69 12.69 0 01-9.142-4.623 4.476 4.476 0 001.386 5.98H2.5V9.5a4.479 4.479 0 001.85 3.708 4.462 4.462 0 01-2.026-.566v.06a4.482 4.482 0 003.59 4.39 4.465 4.465 0 01-2.023.077 4.482 4.482 0 004.18 3.111 8.987 8.987 0 01-5.557 1.916A12.64 12.64 0 007.747 21c9.256 0 14.355-7.698 14.355-14.334 0-.214-.005-.428-.015-.642a10.325 10.325 0 002.529-2.634z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" title="GitHub">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2024 <span class="cyan-text">SIJOU FX</span>. All rights reserved.</p>
+            <p class="footer-subtext">Crafted in the digital realm with cyberpunk aesthetics.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
